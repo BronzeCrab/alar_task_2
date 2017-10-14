@@ -21,4 +21,6 @@ ID распределены следующим образом:
 
 ## Как запустить:
 
--
+- pip3 intall -r requirements.txt
+- sudo apt-get install rabbitmq-server
+- celery -A alar_task_2 worker -l info
