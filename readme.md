@@ -31,3 +31,4 @@ ID распределены следующим образом:
 - sudo apt-get install rabbitmq-server
 - celery -A alar_task_2 worker -l info
 - flower -A alar_task_2 --po=5555
+- python3 manage.py runserver
